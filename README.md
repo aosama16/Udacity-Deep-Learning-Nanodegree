@@ -12,7 +12,7 @@ Implemented a neural network from scratch in NumPy to predict bike rentals.
 
 Data Set Size: 17379 Records
 
-Data Set<br>
+Dataset<br>
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,
 precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to  
 the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is 
@@ -28,13 +28,28 @@ Main Tasks
 - Create a CNN to Classify Dog Breeds from Scratch using PyTorch
 - Create a CNN to Classify Dog Breeds using Transfer Learning from a VGG16 Model
 
-Data Set<br>
+Dataset<br>
 [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/), Size: 13233 records<br>
 [Dog Data Set](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip), Size: 8351 records
 
 ------
-<!--- 
+
 ![project3](https://user-images.githubusercontent.com/44305804/83665793-350a4b80-a5cc-11ea-8915-9f955bbd8a80.png)
+
+In this project, i generated Seinfeld TV scripts using RNNs. The Neural Network will generate a new ,"fake" TV script, based on patterns it recognizes in this training data.
+
+Dataset<br>
+[Seinfeld Chronicles](https://www.kaggle.com/thec03u5/seinfeld-chronicles#scripts.csv)<br>
+Complete Seinfeld Scripts and Episode Details
+
+Content<br>
+Details about all the episodes.<br>
+Includes attributes like Director, Episode Name, Air Date etc…<br>
+Complete Scripts of all the episodes.<br>
+
+------
+
+<!--- 
 ![project4](https://user-images.githubusercontent.com/44305804/83665796-35a2e200-a5cc-11ea-87bf-c18c2ecbfe01.png)
 ![project5](https://user-images.githubusercontent.com/44305804/83665798-363b7880-a5cc-11ea-9cbf-b457f42e0046.png)
 ---> 
