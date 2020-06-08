@@ -49,7 +49,20 @@ Complete Scripts of all the episodes.<br>
 
 ------
 
-<!--- 
 ![project4](https://user-images.githubusercontent.com/44305804/83665796-35a2e200-a5cc-11ea-87bf-c18c2ecbfe01.png)
+
+In this project, i defined and trained a DCGAN (Deep Convolutional Generative Adversarial Network) on a dataset of faces. <br>
+My goal was to get a generator network to generate new images of faces that look as realistic as possible!
+
+Dataset<br>
+[CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter.
+
+Modification on the dataset<br>
+- The image input has been cropped to focus on the face.
+- The image input has been resized to be a 32 * 32 pixel image.
+- Used a smaller subset of the very large CelebA data.
+
+------
+<!--- 
 ![project5](https://user-images.githubusercontent.com/44305804/83665798-363b7880-a5cc-11ea-9cbf-b457f42e0046.png)
 ---> 
