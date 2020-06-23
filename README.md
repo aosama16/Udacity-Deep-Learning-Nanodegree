@@ -63,6 +63,18 @@ Modification on the dataset<br>
 - Used a smaller subset of the very large CelebA data.
 
 ------
-<!--- 
+
 ![project5](https://user-images.githubusercontent.com/44305804/83665798-363b7880-a5cc-11ea-9cbf-b457f42e0046.png)
----> 
+
+In this project i trained a RNN (Sentiment analysis model) to classify IMDB movie reviews (Positive and Negative) using Amazon's AWS, it was deployed to a web app using Lambda and API Gateway.
+
+Dataset<br>
+[Large Movie Review Dataset](http://ai.stanford.edu/~amaas/data/sentiment/) is a dataset for binary sentiment classification containing substantially more data than previous benchmark datasets. We provide a set of 25,000 highly polar movie reviews for training, and 25,000 for testing. There is additional unlabeled data for use as well. Raw text and already processed bag of words formats are provided.
+
+Main Tasks
+- Train a RNN model using an Amazon EC2 instance.
+- Deploy the model by creating an endpoint.
+- Setting up a Lambda function for creating the backend service.
+- Setting up API Gateway for creating the REST API.
+
+------
